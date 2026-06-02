@@ -1,7 +1,16 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNORS UNIVERSITY 
-## D280 – JAVASCRIPT PROGRAMMING
-Welcome to JavaScript Programming! 
-For specific task instructions and requirements for this assessment, please refer to the course page.
- 
+# D280 World Map Project
 
+## Student Information
+
+Student ID: 012363926
+
+## Angular Configuration
+
+Angular CLI: 21.2.13
+Node.js: 24.16.0
+Package Manager: npm 11.6.0
+Operating System: win32 x64
+
+## Project Description
+
+The project is an Angular application that shows an interactive SVG world map and retrieves country information using the World Bank API.
