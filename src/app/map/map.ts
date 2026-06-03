@@ -28,7 +28,12 @@ export class Map {
     }
 
     this.worldBank.getCountry(countryCode).subscribe((data: any) => {
-      const country = data[1][0];
+      const country = data[1]?.[0];
+
+      if (!country) {
+        return;
+      }
+
       this.selectedCountry = country.name;
       this.countryName = country.name;
       this.capitalCity = country.capitalCity;
